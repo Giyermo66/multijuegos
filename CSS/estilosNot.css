@@ -1,0 +1,72 @@
+/*Estilos de la pagina*/
+header, footer, aside, main{
+    background-color: lightpink;
+    color:lightpink;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    margin: 5px;
+}
+
+main h2{
+    text-align: center;
+    color:whitesmoke;
+    text-decoration:underline;
+    flex-basis: 80%;  
+}
+/*estilo del p dentro del main*/
+main p {
+    color: black;
+    font-size: 65%;
+}
+
+aside{
+    flex-basis: 31%;
+}
+
+header article{
+    background-color:lightyellow;
+    font-size: 50px;
+    margin: 5px;
+    padding: 5px;
+    padding-top: 12px;
+    text-align: center;
+    border-radius: 5px;
+    color:lightcoral"
+}
+
+.contenedor {
+    justify-content: space-evenly;
+    display: flex; 
+}
+
+.imagen-float{
+    float: right;
+    width: 360px;
+    border-radius: 10px;
+    height: 150px;
+    margin-left: 25px;
+}
+
+main article{
+    background-color: lightyellow;
+    color: black;
+    font-size: 30px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+footer h6{
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    margin: 15px;
+}
+
+footer{
+    flex-basis: 25%;
+    padding: 1px;
+}
